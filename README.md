@@ -28,8 +28,8 @@ There are functions for adding / removing nodes and edges, getting the node data
 
 ## Algorithms:
 
-### WGraph_Algo:<br/>
-*The weighted_graph_algorithms interface is implemented in WGraph_Algo class:*
+### DWGraph_Algo:<br/>
+*The dw_graph_algorithms interface is implemented in DWGraph_Algo class:*
 The Graph_Algo object contains a graph to activate the algorithms on.
 
 **This class represents the Graph Theory algorithms including:**
