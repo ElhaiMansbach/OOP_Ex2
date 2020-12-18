@@ -61,5 +61,5 @@ The function receives a list of nodes (Queue) and finds from them the node with 
 **Json2Graph:**<br/>
 I used Json2Graph function to convert the graph I loaded as a Jason file into a game as a directed_weighted_graph.
 
-**In the second part of the project I have 4 classes:**
+**In the second part of the project:**
 
