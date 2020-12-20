@@ -73,23 +73,11 @@ The game is built on from several already made classes and libraries(mainly libs
 All the game elements are found in src\gameClient folder.<br/>
 The pokemon game is made from:
 
-## Ex2.jar:************************<br/>
-
 ## Ex2:***********************<br/>
 
-the main java class (not to be confused with the jar file) launches the game and his associate GUI. the class is responsible to initialize the game and to maintain the GUI.<br/> 
+the main java class launches the game and his associate GUI.<br/> 
+the class is responsible to initialize the game and to maintain the GUI.<br/> 
 the class contains:<br/>
-
-1.**_win:** the main GUI frame that represent the game to the user.<br/>
-2.**_ar:** the game arena- holds the game's information since the last move.<br/>
-3.**game:** *********************************************<br/>
-4.**algo:** ****************************************<br/>
-5.**chosenDest:** *********************<br/>
-6.**pokemons:** ********************<br/>
-7.**lastDests:** *****************<br/>
-8.**id:** the login id.<br/>
-9.**dt:** *****************<br/>
-10.scenario_num: the chosen level from the game.<br/>
 
 ## MyFrame which extends the class - JFrame:
 The main GUI frame class - is responsible to draw the game, utilizes the classes from the util folder.<br/>
