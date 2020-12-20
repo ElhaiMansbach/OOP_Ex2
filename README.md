@@ -3,7 +3,7 @@
 *Author: Elhai Mansbach* <br/>
 ### Part 1: Directed Weighted Graph  *********************************
 In this project I implemented algorithms for developing a data structure into an directed weighted graph. <br/>
-After the data structure implementation, I implemented a bunch of algorithms on the graph including the ability to duplicate the graph, check connectivity, check edge's weight and calculate the shortest path between source and destination nodes.
+After the data structure implementation, I implemented a bunch of algorithms on the graph including the ability to duplicate the graph, check connectivity, add node/edge, remove node/edge, check edge's weight and calculate the shortest path between source and destination nodes.
 
 ## Data Structures:
 
