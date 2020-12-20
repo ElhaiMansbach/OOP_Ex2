@@ -1,7 +1,7 @@
 # OOP_Ex2
 ## Ex_2 - directed & Weighted Graphs & The pokemons game
 *Author: Elhai Mansbach* <br/>
-### Part 1: Directed Weighted Graph  *********************************
+### Part 1: Directed Weighted Graph  
 In this project I implemented algorithms for developing a data structure into an directed weighted graph. <br/>
 After the data structure implementation, I implemented a bunch of algorithms on the graph including the ability to duplicate the graph, check connectivity, add node/edge, remove node/edge, check edge's weight and calculate the shortest path between source and destination nodes.
 
@@ -73,7 +73,7 @@ The game is built on from several already made classes and libraries(mainly libs
 All the game elements are found in src\gameClient folder.<br/>
 The pokemon game is made from:
 
-## Ex2:***********************<br/>
+## Ex2:<br/>
 
 the main java class launches the game and his associate GUI.<br/> 
 the class is responsible to initialize the game and to maintain the GUI.<br/> 
