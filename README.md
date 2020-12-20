@@ -97,6 +97,9 @@ like the location of agents and to calculate how to resize the arena after resiz
 * Point2D - represents a 2D Range, composed from two 1D Ranges.
 * Range2Range - represents a simple world 2 frame (w2f) conversion (both ways).
 
+## Tests:
+In this class there are some JUNIT tests (using JUNIT 5 version). <br/>
+
 ## Data:<br />
 In this package you will find the json files represntes the graphs.<br />
 
