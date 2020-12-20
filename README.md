@@ -1,7 +1,7 @@
 # OOP_Ex2
 ## Ex_2 - directed & Weighted Graphs & The pokemons game
 *Author: Elhai Mansbach* <br/>
-### Part 1: Directed Weighted Graph  
+# Part 1: Directed Weighted Graph  
 In this project I implemented algorithms for developing a data structure into an directed weighted graph. <br/>
 After the data structure implementation, I implemented a bunch of algorithms on the graph including the ability to duplicate the graph, check connectivity, add node/edge, remove node/edge, check edge's weight and calculate the shortest path between source and destination nodes.
 
@@ -63,7 +63,7 @@ The function receives a list of nodes (Queue) and finds from them the node with 
 **Json2Graph:**<br/>
 I used Json2Graph function to convert the graph I loaded as a Jason file into a game as a directed_weighted_graph.
 
-### Part 2: The pokemons game
+# Part 2: The pokemons game
 In the Pokemon game you have to manage a group of agents that their goal is to catch as many Pokemons as possible, before that time will run out.<br/>
 The more Pokemon you catch, the more points you earn!<br/>
 There are 24 different levels((0-23), with increasing difficulty.<br/>
