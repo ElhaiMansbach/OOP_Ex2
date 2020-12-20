@@ -40,28 +40,6 @@ The Graph_Algo object contains a graph to activate the algorithms on.
 6.	**Save:** Saves this weighted (directed) graph to the given file name - in JSON format.
 7.	**Load:** Loads the graph from the file.
 
-**I have also implemented some auxiliary functions used to implement the above function:**
-
- **Bfs:**<br/>
-I used this function in isConnected function, to check if we visited all the nodes, otherwise the graph is not connected.<br/>
-I used the bfs utility function that does breadth traversal across the graph and marks the nodes it visited.<br/>
-I created a queue (data structure) and another filed "element" (which save the current node dequeue from the queue).<br/>
-The tag of a node is 0 if we have not visited the node yet, otherwise 1.<br/>
-I start traversal from the "key" node (which the function gets), set the tag of the node to 1, and inserted him into the queue.<br/>
-Then I made a while loop that works as long as the queue is not empty, in the loop I ran over the neighbors of the current "element"  and checked if the tag of each neighbor is equal to 0 (i.e. we had not yet visited it), otherwise we move to the next neighbor.<br/>
-If equal to 0 then the node was inserted to the queue and the tag was updated.
-
-**getTranspose:**<br/>
-I used getTranspose function as an auxiliary function for isConnected.<br/>
-This function gets a graph and turns its rib directions.<br/>
-
-**findMinNode:**<br/>
-I used findMinNode function as an auxiliary function for shortestPathDist.<br/>
-The function Finds the node with the minimum weight and removes it from the queue.<br/>
-The function receives a list of nodes (Queue) and finds from them the node with the lowest weight.<br/>
-
-**Json2Graph:**<br/>
-I used Json2Graph function to convert the graph I loaded as a Jason file into a game as a directed_weighted_graph.
 
 # Part 2: The pokemons game
 In the Pokemon game you have to manage a group of agents that their goal is to catch as many Pokemons as possible, before that time will run out.<br/>
@@ -73,54 +51,74 @@ The game is built on from several already made classes and libraries(mainly libs
 All the game elements are found in src\gameClient folder.<br/>
 The pokemon game is made from:
 
-## Ex2:<br/>
+### GameClient: <br/>
+The gameClient folder also contains MyFrame and simpleGameClient, which are pre built classes that the main classes are built on.<br/> 
+they are not to be used, only for testing purposes.
 
-the main java class launches the game and his associate GUI.<br/> 
+**The main class- Ex2:**<br/>
+The main java class launches the game and his associate GUI.<br/> 
 the class is responsible to initialize the game and to maintain the GUI.<br/> 
 the class contains:<br/>
 
-## MyFrame which extends the class - JFrame:
-The main GUI frame class - is responsible to draw the game, utilizes the classes from the util folder.<br/>
-the frame will represent the graph, pokemons, the moving agents, level, timer to the end of the game and the total score. <br/>
+**MyFrame & MyPanel**<br/>
+ Displays the game in JAVA (Using JFrame and JPanel).
+ 
+ 
+**SimpleGameClient**<br/>
+This class represents the simplest "Client-Game" main class which uses the "server for moving the "Agents".
+*Note: this code is a very simple no algorithm no threaded mechanism - it is presented just to show the basic use of the "server".
 
-## MyPanel which extends the class - JPanel:
-A GUI window that allows the user to enter his id and choose a game level.<br/>
-the panel is made up of a text box for entering the id, a popup menu to choose the level (0-23) and option to login.<br/>
-closing the panel will terminate the program.<br/>
+### Elements: 
+**Arena:**
+A class that utilizes the util folder in order to build the game's level.<br/>
+The class is responsible to hold and track the game's elements since the last move.<br/>
+The class also reads Json in order to process the data of the game server.<br/>
 
-## Arena:
-a pre built class, that utilizes the util folder in order to build the game's level.<br/>
-the class is responsible to hold and track the game's elements since the last move.<br/>
-the class also reads JString in order to process the data of the game server.<br/>
+**CL_Pokemon:**
+A class that represent the pokemons in game.<br/> 
+Each hold a specific edge, location type and value.<br/> 
+The pokemon type and location determine on what edge he is located.<br/> 
+The pokemons value determine the score of the capturing agent.<br/> 
+The game is remaking the pokemons from json string from the server after every move.<br/> 
 
-## CL_Pokemon classthat implements Comparable:
-a pre built class, that represent the pokemons in game.<br/> 
-each hold a specific edge, location type and value.<br/> 
-the pokemon type and location determine on what edge he is located.<br/> 
-the pokemons value determine the score of the capturing agent.<br/> 
-the game is remaking the pokemons from json string from the server after every move.<br/> 
+**CL_Agent:**
+A class that represent the games agents.<br/> 
+The agent is remade with each move of the game, and is made from the Json String of the game server.<br/> 
+The agent contains:<br/> 
 
-## CL_Agent class that implements Comparable:
-A pre built class, that represent the games agents.<br/> 
-the agent is remade with each move of the game, and is made from the Json String of the game server.<br/> 
-the agent contains:<br/> 
 
-1.**_pos:** the current location of the agent.<br/> 
-2.**_speed:** the speed is calculated as edge-weight per second, and is increased after he reaches a certain amount of score.<br/> 
-3.**_curr_edge:** the edge the agent is currently located.<br/> 
-4.**_curr_node:** the node the agent is currently located, or the source of the edge he is currently located.<br/> 
-
-## util folder:
+## util:
 Util hold number of pre built classes.<br/> 
 they are responsible to calculate and maintain position of the game's elements.<br/> 
 like the location of agents and to calculate how to resize the arena after resizing the game's UI window.<br/> 
 
-the gameClient folder also contains MyFrame, Ex2_client and simpleGameClient, which are pre built classes that the main classes are built on.<br/> 
-they are not to be used, only for testing purposes.
+* Range - represents a simple 1D range of shape [min,max].
+* Point3D - represents a 3D point in space.
+* Point2D - represents a 2D Range, composed from two 1D Ranges.
+* Range2Range - represents a simple world 2 frame (w2f) conversion (both ways).
+
+## Data:<br />
+In this package you will find the json files represntes the graphs.<br />
+
+
+## Resources:<br />
+In this package you will find the elemnents images.<br />
+
+## Libs:<br />
+* Ex2_Server_v0.13.jar
+* annotations-13.0.jar
+* java-json.jar
+* kotlin-stdlib-1.3.72.jar
+* kotlin-stdlib-common-1.3.70.jar
+* okhttp-4.8.0.jar
+* okio-2.7.0.jar
+
+## Docs:<br />
+In this package you will find the all the documention of the java project.<br />
+
 
 # Enjoy the game :)
 ![image](https://user-images.githubusercontent.com/74247437/102534186-073fac80-40af-11eb-8569-60568ef88368.png)
-
 
 
 
