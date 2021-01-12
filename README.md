@@ -33,12 +33,12 @@ The Graph_Algo object contains a graph to activate the algorithms on.
 **This class represents the Graph Theory algorithms including:**
 1.	**Init:** Init this set of algorithms on a given graph
 2. **getGraph:** Return the underlying graph of which this class works
-2.	**Copy:** Deep copy of the graph.
-3.	**isConnected:** Checks whether there is a valid path from each node to each other node.
-4.	**shortestPathDist:** Calculates the length of the shortest path between src to dest.
-5.	**shortestPath:** Finds the shortest path (as an ordered list of nodes) between 2 given nodes in the graph.
-6.	**Save:** Saves this weighted (directed) graph to the given file name - in JSON format.
-7.	**Load:** Loads the graph from the file.
+3.	**Copy:** Deep copy of the graph.
+4.	**isConnected:** Checks whether there is a valid path from each node to each other node.
+5.	**shortestPathDist:** Calculates the length of the shortest path between src to dest.
+6.	**shortestPath:** Finds the shortest path (as an ordered list of nodes) between 2 given nodes in the graph.
+7.	**Save:** Saves this weighted (directed) graph to the given file name - in JSON format.
+8.	**Load:** Loads the graph from the file.
 
 
 # Part 2: The pokemons game
