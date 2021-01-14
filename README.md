@@ -1,7 +1,9 @@
 # OOP_Ex2
 ## Ex_2 - directed & Weighted Graphs & The pokemons game
 *Author: Elhai Mansbach* <br/>
+
 # Part 1: Directed Weighted Graph  
+![](https://www.researchgate.net/profile/Yilun_Shang/publication/271944978/figure/fig2/AS:669349501231106@1536596765134/A-weighted-directed-graph-G-with-six-vertices.png)
 In this project I implemented algorithms for developing a data structure into an directed weighted graph. <br/>
 After the data structure implementation, I implemented a bunch of algorithms on the graph including the ability to duplicate the graph, check connectivity, add node/edge, remove node/edge, check edge's weight and calculate the shortest path between source and destination nodes.
 
@@ -41,7 +43,10 @@ The Graph_Algo object contains a graph to activate the algorithms on.
 8.	**Load:** Loads the graph from the file.
 
 
-# Part 2: The pokemons game
+# Part 2: The pokemons game<br/>
+
+![](https://media1.giphy.com/media/jP4pPl5z1lccFcGvR0/200w.webp)
+
 In the Pokemon game you have to manage a group of agents that their goal is to catch as many Pokemons as possible, before that time will run out.<br/>
 The more Pokemon you catch, the more points you earn!<br/>
 There are 24 different levels((0-23), with increasing difficulty.<br/>
