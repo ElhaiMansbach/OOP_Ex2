@@ -50,7 +50,7 @@ The Graph_Algo object contains a graph to activate the algorithms on.
   </div>
 </div>
 
-<h1 >Part 2: The Pokémon Game</h1>
+<h1 align="center">Part 2: The Pokémon Game</h1>
 
 
 In the Pokemon game you have to manage a group of agents that their goal is to catch as many Pokemons as possible, before that time will run out.<br/>
