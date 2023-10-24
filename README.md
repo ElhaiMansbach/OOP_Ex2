@@ -42,10 +42,17 @@ The Graph_Algo object contains a graph to activate the algorithms on.
 7.	**Save:** Saves this weighted (directed) graph to the given file name - in JSON format.
 8.	**Load:** Loads the graph from the file.
 
-<div style="display: flex; align-items: center;">
-  <h1 style="margin: 0;">Part 2: The Pokémon Game</h1>
-  <img src="https://media1.giphy.com/media/jP4pPl5z1lccFcGvR0/200w.webp" alt="GIF" style="vertical-align: middle;">
+<div align="center">
+  <div style="display: flex; justify-content: space-between;">
+    <img src="https://media1.giphy.com/media/jP4pPl5z1lccFcGvR0/200w.webp" alt="GIF">
+    <img src="https://media1.giphy.com/media/jP4pPl5z1lccFcGvR0/200w.webp" alt="GIF">
+    <img src="https://media1.giphy.com/media/jP4pPl5z1lccFcGvR0/200w.webp" alt="GIF">
+    <img src="https://media1.giphy.com/media/jP4pPl5z1lccFcGvR0/200w.webp" alt="GIF">
+  </div>
 </div>
+
+<h1 >Part 2: The Pokémon Game</h1>
+
 
 In the Pokemon game you have to manage a group of agents that their goal is to catch as many Pokemons as possible, before that time will run out.<br/>
 The more Pokemon you catch, the more points you earn!<br/>
