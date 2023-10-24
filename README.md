@@ -1,8 +1,5 @@
-# OOP_Ex2
-## Ex_2 - directed & Weighted Graphs & The pokemons game
-*Author: Elhai Mansbach* <br/>
-
-# Part 1: Directed Weighted Graph  
+<h1 align="center">Part 1: Directed Weighted Graph</h1>
+  
 ![](https://www.researchgate.net/profile/Yilun_Shang/publication/271944978/figure/fig2/AS:669349501231106@1536596765134/A-weighted-directed-graph-G-with-six-vertices.png)
 In this project I implemented algorithms for developing a data structure into an directed weighted graph. <br/>
 After the data structure implementation, I implemented a bunch of algorithms on the graph including the ability to duplicate the graph, check connectivity, add node/edge, remove node/edge, check edge's weight and calculate the shortest path between source and destination nodes.
@@ -130,6 +127,6 @@ In this package you will find the all the documention of the java project.<br />
 # Enjoy the game :)
 ![image](https://user-images.githubusercontent.com/74247437/102534186-073fac80-40af-11eb-8569-60568ef88368.png)
 
-
+*Author: Elhai Mansbach* <br/>
 
 
