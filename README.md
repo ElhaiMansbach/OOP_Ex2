@@ -43,14 +43,16 @@ The Graph_Algo object contains a graph to activate the algorithms on.
 8.	**Load:** Loads the graph from the file.
 
 # 
+
 <div align="center">
-  <div style="display: flex; justify-content: space-between;">
+  <h1>
     <img src="https://media1.giphy.com/media/jP4pPl5z1lccFcGvR0/200w.webp" alt="GIF">
+     Part 2: The Pokémon Game
     <img src="https://media1.giphy.com/media/jP4pPl5z1lccFcGvR0/200w.webp" alt="GIF">
-  </div>
+    </h1>
 </div>
 
-<h1 align="center">Part 2: The Pokémon Game</h1>
+
 
 
 In the Pokemon game you have to manage a group of agents that their goal is to catch as many Pokemons as possible, before that time will run out.<br/>
