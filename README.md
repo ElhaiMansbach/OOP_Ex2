@@ -47,7 +47,6 @@ The Graph_Algo object contains a graph to activate the algorithms on.
     <img src="https://media1.giphy.com/media/jP4pPl5z1lccFcGvR0/200w.webp" alt="GIF">
     <img src="https://media1.giphy.com/media/jP4pPl5z1lccFcGvR0/200w.webp" alt="GIF">
     <img src="https://media1.giphy.com/media/jP4pPl5z1lccFcGvR0/200w.webp" alt="GIF">
-    <img src="https://media1.giphy.com/media/jP4pPl5z1lccFcGvR0/200w.webp" alt="GIF">
   </div>
 </div>
 
