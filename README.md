@@ -42,6 +42,7 @@ The Graph_Algo object contains a graph to activate the algorithms on.
 7.	**Save:** Saves this weighted (directed) graph to the given file name - in JSON format.
 8.	**Load:** Loads the graph from the file.
 
+# 
 <div align="center">
   <div style="display: flex; justify-content: space-between;">
     <img src="https://media1.giphy.com/media/jP4pPl5z1lccFcGvR0/200w.webp" alt="GIF">
